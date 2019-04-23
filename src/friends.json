@@ -1,0 +1,76 @@
+[
+  {
+    "id": 1,
+    "name": "Elmo",
+    "image": "sesemestreet/54.png",
+    "count": 0
+  },
+  {
+    "id": 2,
+    "name": "Cookie Monster",
+    "image": "sesemestreet/3.png",
+    "count": 0
+  },
+  {
+    "id": 3,
+    "name": "Big Bird",
+    "image": "sesemestreet/1.png",
+    "count": 0
+  },
+  {
+    "id": 4,
+    "name": "Grouch",
+    "image": "sesemestreet/8.png",
+    "count": 0
+  },
+  {
+    "id": 5,
+    "name": "Zoey",
+    "image": "sesemestreet/9.png",
+    "count": 0
+  },
+  {
+    "id": 6,
+    "name": "Abby",
+    "image": "sesemestreet/13.png",
+    "count": 0
+   
+  },
+  {
+    "id": 7,
+    "name": "Bert",
+    "image": "sesemestreet/20.png",
+    "count": 0
+  },
+  {
+    "id": 8,
+    "name": "Earnie",
+    "image": "sesemestreet/24.png",
+    "count": 0
+  },
+  {
+    "id": 9,
+    "name": "Snufalufagus",
+    "image": "sesemestreet/33.png",
+    "count": 0
+  },
+  {
+    "id": 10,
+    "name": "The Count",
+    "image": "sesemestreet/35.png",
+    "count": 0
+  },
+  {
+    "id": 11,
+    "name": "Grover",
+    "image": "sesemestreet/36.png",
+    "count": 0
+   
+  },
+  {
+    "id": 12,
+    "name": "Teddy",
+    "image": "sesemestreet/34.png",
+    "count": 0
+  }
+]
