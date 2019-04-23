@@ -18,7 +18,7 @@ class App extends Component {
   };
 
   //calculate highscore -- need to test this 
-  highscore =() => {
+  highscore = () => {
     if (this.state.score > this.state.highscore){
       this.setState({highscore:this.state.score}, function() {
         console.log(this.state.highscore);
@@ -27,20 +27,19 @@ class App extends Component {
   }
 
   //TODO: if score is x, you win yay!
-  gameover=() => {
-    this.state.friends.forEach(friends => {
-      friends.count = 0;
+  gameover = () => {
+    this.state.friends.forEach(function(friend) {
+      friend.count = 0;
     });
     alert(`Game Over :( \nscore: ${this.state.score}`);
     this.setState({score: 0});
-    return true;
   }
 
   clickCount = id => {
-    this.state.friends.find((o, i) => {
-      if (o.id === id) {
-        if(friends[i].count === 0){
-          friends[i].count = friends[i].count + 1;
+    this.state.friends.find(friend => {
+      if (friend.id === id) {
+        if(friend.count === 0){
+          friend.count = friend.count + 1;
           this.setState({score : this.state.score + 1}, function(){
             console.log(this.state.score);
           });
@@ -55,16 +54,12 @@ class App extends Component {
     });
   }
 
-
-
-
-
   // Map over this.state.friends and render a FriendCard component for each friend object
-  render() {
+  render () {
     return (
       <Wrapper>
-        <Navbar className="header" score={this.state.score} highscore={this.state.highscore}/>
-        <header >
+        <Navbar score={this.state.score} highscore={this.state.highscore}/>
+        <header className="header">
           <h1>Clicky Game!</h1>
           <h2>Click an image! Once you click the character, don't click them again!  </h2>
         </header>

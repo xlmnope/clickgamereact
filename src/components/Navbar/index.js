@@ -10,8 +10,8 @@ function NavBar (props){
           <a href="/">Clicky Game</a>
         </li>
        
-        <li className="brand">Score: {props.score}</li>
-        <li className="brand">Highscore: {props.highscore}</li>
+        <li>Score: {props.score}</li>
+        <li>Highscore: {props.highscore}</li>
       </ul>
      </nav>
   )
